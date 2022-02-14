@@ -1,3 +1,7 @@
+/* HEADER */
+
+/* Dropdown toggler customizzati */
+
 header nav .dd_custom-dropdown-toggle::after {
     display: inline-block;
     margin-left: .3em;
@@ -10,12 +14,5 @@ header nav .dd_custom-dropdown-toggle::after {
 }
 
 header nav .dd_custom-dropdown-toggle:focus::after {
-    display: inline-block;
-    margin-left: .3em;
-    vertical-align: bottom;
     content: "\f106";
-    font-family: "Font Awesome 6 Free";
-    font-size: .7rem;
-    font-weight: 900;
-    color: grey;
 }

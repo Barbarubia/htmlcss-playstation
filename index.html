@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,12 +23,22 @@
     
     <!-- HEADER FISSATO IN ALTO -->
 
-    <header>
+    <header class="container-fluid">
 
         <!-- BARRA NERA SONY -->
         <!--
             Nel sito originale non rimane fissa in alto ma scrolla insieme al resto della pagina: inizialmente la imposterò fissa con tutto l'header
         -->
+
+        <div class="row bg-black text-end py-2">
+            <div class="col-1 offset-11 align-items-center">
+                <a href="#">
+                    <img class="" src="img/sony_logo.svg" alt="Link Website Sony">
+                </a>
+            </div>
+        </div>
+
+        
 
         <!-- NAVBAR BOOTSTRAP CON SOTTOMENU -->
         <!--
@@ -373,7 +383,7 @@
 
                     <!-- Menu destra-->
                     <ul class="navbar-nav align-items-center">
-                        <li class="nav-item dropdown position-static">
+                        <li class="nav-item dropdown position-static me-3">
                             <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 My PlayStation
                             </a>
@@ -428,7 +438,7 @@
                         </li>
 
                         <!-- Bottone Accedi -->
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a href="#"><button type="button" class="btn btn-dark rounded-pill just align-items-center">Accedi</button></a>
                         </li>
 
@@ -447,15 +457,11 @@
                                     </div>
                                 </li>
                             </ul>
-
                         </li>
-
                     </ul>
-                    
                 </div>
             </div>
         </nav>
-
     </header>
 
 
