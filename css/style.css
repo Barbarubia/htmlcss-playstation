@@ -21,6 +21,18 @@ html {
 
 /* HEADER */
 
+/*
+imposto altezza fissa alla navbar per poter fissarla in alta dando il giusto margine superiore alla sezione main
+*/
+
+header .dd_header-sony-bar {
+    height: 3rem;
+}
+
+header .dd_navbar {
+    height: 4rem;
+}
+
 /* Dropdown toggler customizzati */
 
 header .dd_logo-sony {
@@ -65,6 +77,13 @@ header nav .dropdown-menu .dd_custom-dropdown-link-style .dropdown-item::before 
     color: var(--play_blue);
 }
 
+
+
+/* MAIN */
+
+.dd_margin-main {
+    margin-top: 7rem;
+}
 
 
 

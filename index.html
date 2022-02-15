@@ -36,14 +36,14 @@
     
     <!-- HEADER FISSATO IN ALTO -->
 
-    <header class="container-fluid bg-white px-0">
+    <header class="fixed-top container-fluid bg-white px-0">
 
         <!-- BARRA NERA SONY -->
         <!--
             Nel sito originale non rimane fissa in alto ma scrolla insieme al resto della pagina: inizialmente la imposterò fissa con tutto l'header
         -->
 
-        <div class="row bg-black text-end mx-0 p-3">
+        <div class="row dd_header-sony-bar bg-black text-end align-items-center mx-0">
             <div class="col">
                 <a href="#!">
                     <img class="dd_logo-sony" src="img/sony_logo.svg" alt="Link Website Sony">
@@ -58,7 +58,7 @@
             Fino al breakpoint MD il menu è nascosto nell'icona hamburger, da breakpoint LG il menu è visibile
         -->
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light dd_navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#!">
                     <img src="img/play_logo.svg" alt="logo playstation">
@@ -70,7 +70,7 @@
                     <!-- Menu sinistra-->
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown position-static">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Giochi
                             </a>
 
@@ -124,7 +124,7 @@
                         </li>
 
                         <li class="nav-item dropdown position-static">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hardware
                             </a>
 
@@ -178,7 +178,7 @@
                         </li>
 
                         <li class="nav-item dropdown position-static">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Servizi
                             </a>
 
@@ -232,7 +232,7 @@
                         </li>
 
                         <li class="nav-item dropdown position-static">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Novità
                             </a>
 
@@ -286,7 +286,7 @@
                         </li>
 
                         <li class="nav-item dropdown position-static">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Fai acquisti
                             </a>
 
@@ -340,7 +340,7 @@
                         </li>
 
                         <li class="nav-item dropdown position-static">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Supporto
                             </a>
 
@@ -397,7 +397,7 @@
                     <!-- Menu destra-->
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item dropdown position-static text-center">
-                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dd_custom-dropdown-toggle text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 My PlayStation
                             </a>
 
@@ -436,7 +436,7 @@
 
                         <!-- Cerca -->
                         <li class="nav-item dropdown position-static text-center">
-                            <a class="nav-link text-black fs-3" href="#!" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link text-black fs-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end border-0 rounded-0 m-0" aria-labelledby="navbarDropdownMenuLink">
@@ -460,7 +460,7 @@
 
     <!-- MAIN -->
 
-    <main>
+    <main class="dd_margin-main">
 
 
 
@@ -818,7 +818,7 @@
                     </div>
                 </div>
     
-                <div class="row gb-2 mx-0">
+                <div class="row g-3 mx-0">
                     <div class="col-12 col-md-4 text-start">
                         <img class="img-fluid" src="img/ps4-slim-homepage-image-block.jpg" alt="Foto PS4">
                         <h2>
@@ -918,7 +918,7 @@
                     </div>
                 </div>
     
-                <div class="row justify-content-center gb-2 mx-0">
+                <div class="row justify-content-center g-3 mx-0">
                     <div class="col-12 col-md-4">
                         <a href="#!">
                             <img class="img-fluid" src="img/playstation-store-games-under-20-spotlight.jpg" alt="Immagine Promo 1">
@@ -985,7 +985,7 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-center gb-2 mx-0">
+                <div class="row justify-content-center g-3 mx-0">
                     <div class="col-6 col-sm-3 col-md-2">
                         <a href="#!">
                             <img class="img-fluid" src="img/twitter.jpg" alt="Logo Twitter">
