@@ -92,6 +92,18 @@ main .dd_recommended-game .dd_container-thumbnail-active {
 
 
 
+/* 2_0 SEZIONE PANORAMICA PLAYSTATION 5 */
+
+main .dd_playstation-5 .dd_thumb-ps5-active {
+    border-bottom: 2px solid var(--play_blue);
+}
+
+main .dd_playstation-5 .dd_thumb-ps5:hover {
+    opacity: 1 !important;
+}
+
+
+
 /* 3_0 SEZIONE GIOCO IN EVIDENZA */
 
 main .dd_featured-game {
