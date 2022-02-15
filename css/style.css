@@ -82,13 +82,13 @@ main .dd_recommended-game .dd_container-thumbnail-active {
     box-shadow: 0px 0px 3px 3px var(--play_blue);
 }
 
-main .dd_recommended-game .dd_rounded-1_5rem {
+.dd_rounded-1_5rem {
     border-radius: 1.5rem;
 }
 
 
 
-/* 2_0 SEZIONE GIOCO IN EVIDENZA */
+/* 3_0 SEZIONE GIOCO IN EVIDENZA */
 
 main .dd_featured-game {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -96,4 +96,12 @@ main .dd_featured-game {
     background-position: center;
     background-size: cover;
     /* height: 650px; */
+}
+
+
+
+/* 4_0 SEZIONE GIOCHI NUOVE USCITE */
+
+main .dd_new-releases {
+    background-color: #1f1f1f;
 }
