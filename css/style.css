@@ -29,8 +29,8 @@ header .dd_header-sony-bar {
     height: 3rem;
 }
 
-header .dd_navbar {
-    height: 4rem;
+header .navbar {
+    min-height: 4rem;
 }
 
 /* Dropdown toggler customizzati */
