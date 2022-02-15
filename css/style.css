@@ -27,3 +27,13 @@ header nav .dd_custom-dropdown-toggle::after {
 header nav .dd_custom-dropdown-toggle:focus::after {
     content: "\f106";
 }
+
+/* SEZIONE JUMBO */
+
+main .jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 675px;
+}
