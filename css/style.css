@@ -23,6 +23,9 @@ html {
 
 /* Dropdown toggler customizzati */
 
+header .dd_logo-sony {
+    width: 100px;
+}
 header nav .dd_custom-dropdown-toggle::after {
     display: inline-block;
     margin-left: .3em;
