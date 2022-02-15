@@ -61,9 +61,9 @@ header nav .dropdown-menu .dd_custom-dropdown-link-style .dropdown-item::before 
 
 
 
-/* SEZIONE JUMBO */
+/* 1_0 SEZIONE JUMBO */
 
-main .jumbo {
+main .dd_recommended-game .dd_jumbo {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -71,17 +71,29 @@ main .jumbo {
     height: 675px;
 }
 
-main .jumbo .dd_container-thumbnail {
+main .dd_recommended-game .dd_container-thumbnail {
     width: 100%;
     padding: .2rem;
     border-radius: 1.8rem;
 }
 
-main .jumbo .dd_container-thumbnail-active {
+main .dd_recommended-game .dd_container-thumbnail-active {
     border: 1px solid var(--play_blue);
     box-shadow: 0px 0px 3px 3px var(--play_blue);
 }
 
-main .jumbo .dd_rounded-1_5rem {
+main .dd_recommended-game .dd_rounded-1_5rem {
     border-radius: 1.5rem;
+}
+
+
+
+/* 2_0 SEZIONE GIOCO IN EVIDENZA */
+
+main .dd_featured-game {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 650px; */
 }
