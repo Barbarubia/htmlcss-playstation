@@ -71,6 +71,17 @@ main .jumbo {
     height: 675px;
 }
 
+main .jumbo .dd_container-thumbnail {
+    width: 100%;
+    padding: .2rem;
+    border-radius: 1.8rem;
+}
+
+main .jumbo .dd_container-thumbnail-active {
+    border: 1px solid var(--play_blue);
+    box-shadow: 0px 0px 3px 3px var(--play_blue);
+}
+
 main .jumbo .dd_rounded-1_5rem {
     border-radius: 1.5rem;
 }
