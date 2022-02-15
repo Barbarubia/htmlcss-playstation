@@ -161,3 +161,9 @@ main .dd_playstation-now {
 }
 
 
+
+/* FOOTER */
+
+footer {
+    background-color: var(--play_blue);
+}
