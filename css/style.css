@@ -12,6 +12,7 @@ html {
 /* COLORI */
 :root {
     --play_blue: #0070d1;
+    --blue_footer: #00439c;
 }
 
 .dd_color-play-blue {
@@ -165,5 +166,18 @@ main .dd_playstation-now {
 /* FOOTER */
 
 footer {
-    background-color: var(--play_blue);
+    background-color: var(--blue_footer);
+}
+
+footer .dd_logo-ps-footer {
+    width: 150px;
+}
+
+footer .dd_globe-picture {
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+footer .dd_logo-sie {
+    width: 150px;
 }
