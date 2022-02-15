@@ -70,3 +70,7 @@ main .jumbo {
     background-size: cover;
     height: 675px;
 }
+
+main .jumbo .dd_rounded-1_5rem {
+    border-radius: 1.5rem;
+}
