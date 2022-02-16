@@ -207,3 +207,19 @@ footer .dd_geo-area-option {
 footer .dd_logo-sie {
     width: 150px;
 }
+
+
+
+/* ANIMAZIONI SU BANNER */
+
+.dd_banner-content {
+    animation-name: banner;
+    animation-duration: 3s;
+}
+@keyframes banner {
+    0% {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    
+}
