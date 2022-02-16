@@ -233,3 +233,20 @@ footer .dd_logo-sie {
     }
     
 }
+
+
+
+/* BORDO HOVER BOTTONI */
+
+.dd_border-button {
+    padding: .1em;
+    border: .2em solid transparent;
+}
+
+.dd_border-button-black:hover {
+    border: .2em solid black;
+}
+
+.dd_border-button-red:hover {
+    border: .2em solid red;
+}
