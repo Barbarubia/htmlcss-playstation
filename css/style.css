@@ -1,12 +1,13 @@
 /* DEBUG */
 /* Queste istruzioni verranno cancellate (o commentate) a fine progetto */
-
+/*
 html {
     background-color: aqua;
 }
-
+/*
 
 /* FINE DEBUG */
+
 
 
 /* COLORI */
@@ -18,6 +19,7 @@ html {
 .dd_color-play-blue {
     color: var(--play_blue);
 }
+
 
 
 /* HEADER */
@@ -92,6 +94,7 @@ header nav .dropdown-menu .dd_custom-dropdown-link-style .dropdown-item::before 
 
 /* MAIN */
 
+/* imposto un margine superiore per farlo rimanere sotto la navbar fissa */
 .dd_margin-main {
     margin-top: 7rem;
 }
@@ -177,8 +180,12 @@ main .dd_new-releases .dd_thumbnail-new-releases {
 }
 
 main .dd_new-releases .dd_thumbnail-new-releases:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
+
+
+
+/* 5_0 SEZIONE PANORAMICA PLAYSTATION 5 */
 
 
 
@@ -187,6 +194,14 @@ main .dd_new-releases .dd_thumbnail-new-releases:hover {
 main .dd_playstation-plus {
     background-color: #bebcbb;
 }
+
+
+
+/* 7_0 SEZIONE PROMOZIONI */
+
+
+
+/* 8_0 SEZIONE PLAYSTATION NOW */
 
 
 
