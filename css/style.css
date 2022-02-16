@@ -39,6 +39,7 @@ header .dd_logo-sony {
 }
 
 header nav .nav-link {
+    font-weight: 500;
     color: #999999 !important;
 }
 
