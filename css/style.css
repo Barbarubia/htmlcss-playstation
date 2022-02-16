@@ -236,17 +236,154 @@ footer .dd_logo-sie {
 
 
 
-/* BORDO HOVER BOTTONI */
+/* BOTTONI */
 
 .dd_border-button {
     padding: .1em;
     border: .2em solid transparent;
 }
 
-.dd_border-button-black:hover {
-    border: .2em solid black;
+/* Bottone scuro */
+
+.dd_btn-dark {
+    background-color: #363636;
+    font-weight: 500;
+    color: white;
+    border: none
+}
+
+.dd_btn-dark:hover {
+    background-color: #4e4e4e;
+    color: white;
+    border: none;
+    transition: none;
+}
+
+.dd_btn-dark:focus {
+    background-color: #363636;
+    box-shadow: none;
+}
+
+.dd_border-button-dark:hover {
+    border: .2em solid #4e4e4e;
+}
+
+.dd_border-button-dark:focus {
+    border: .2em solid #363636;
+}
+
+/* Bottone blu */
+
+.dd_btn-blue {
+    background-color: #2d64e6;
+    font-weight: 500;
+    color: white;
+    border: none
+}
+
+.dd_btn-blue:hover {
+    background-color: #4c7cee;
+    color: white;
+    border: none;
+    transition: none;
+}
+
+.dd_btn-blue:focus {
+    background-color: #2d64e6;
+    box-shadow: none;
+}
+
+.dd_border-button-blue:hover {
+    border: .2em solid #4c7cee;
+}
+
+.dd_border-button-blue:focus {
+    border: .2em solid #2d64e6;
+}
+
+/* Bottone rosso */
+
+.dd_btn-red {
+    background-color: #cd3d0f;
+    font-weight: 500;
+    color: white;
+    border: none
+}
+
+.dd_btn-red:hover {
+    background-color: #f06032;
+    color: white;
+    border: none;
+    transition: none;
+}
+
+.dd_btn-red:focus {
+    background-color: #cd3d0f;
+    box-shadow: none;
 }
 
 .dd_border-button-red:hover {
-    border: .2em solid red;
+    border: .2em solid #f06032;
+}
+
+.dd_border-button-red:focus {
+    border: .2em solid #cd3d0f;
+}
+
+/* Bottone grigio con testo blu */
+
+.dd_btn-grey {
+    background-color: #d9dadc;
+    font-weight: 500;
+    color: #2d64e6;
+    border: none
+}
+
+.dd_btn-grey:hover {
+    background-color: #eeeeee;
+    color: #2d64e6;
+    border: none;
+    transition: none;
+}
+
+.dd_btn-grey:focus {
+    background-color: #d9dadc;
+    box-shadow: none;
+}
+
+.dd_border-button-grey:hover {
+    border: .2em solid #eeeeee;
+}
+
+.dd_border-button-grey:focus {
+    border: .2em solid #d9dadc;
+}
+
+/* Bottone chiaro con testo nero */
+
+.dd_btn-light {
+    background-color: #f5f5f5;
+    font-weight: 500;
+    color: black;
+    border: none
+}
+
+.dd_btn-light:hover {
+    background-color: #c0c0c0;
+    color: black;
+    border: none;
+    transition: none;
+}
+
+.dd_btn-light:focus {
+    background-color: #f5f5f5;
+    box-shadow: none;
+}
+
+.dd_border-button-light:hover {
+    border: .2em solid #c0c0c0;
+}
+
+.dd_border-button-light:focus {
+    border: .2em solid #f5f5f5;
 }
