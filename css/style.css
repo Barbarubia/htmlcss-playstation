@@ -257,8 +257,8 @@ footer .dd_logo-sie {
 /* BOTTONI */
 
 .dd_border-button {
+    margin-left: -.1em;
     padding: .1em;
-    border: .2em solid transparent;
 }
 
 /* Bottone scuro */
@@ -283,11 +283,11 @@ footer .dd_logo-sie {
 }
 
 .dd_border-button-dark:hover {
-    border: .2em solid #4e4e4e;
+    box-shadow: 0px 0px 0px .2em #4e4e4e;
 }
 
 .dd_border-button-dark:focus {
-    border: .2em solid #363636;
+    box-shadow: 0px 0px 0px .2em #363636;
 }
 
 /* Bottone blu */
@@ -312,11 +312,11 @@ footer .dd_logo-sie {
 }
 
 .dd_border-button-blue:hover {
-    border: .2em solid #4c7cee;
+    box-shadow: 0px 0px 0px .2em #4c7cee;
 }
 
 .dd_border-button-blue:focus {
-    border: .2em solid #2d64e6;
+    box-shadow: 0px 0px 0px .2em #2d64e6;
 }
 
 /* Bottone rosso */
@@ -341,11 +341,11 @@ footer .dd_logo-sie {
 }
 
 .dd_border-button-red:hover {
-    border: .2em solid #f06032;
+    box-shadow: 0px 0px 0px .2em #f06032;
 }
 
 .dd_border-button-red:focus {
-    border: .2em solid #cd3d0f;
+    box-shadow: 0px 0px 0px .2em #cd3d0f;
 }
 
 /* Bottone grigio con testo blu */
@@ -370,11 +370,11 @@ footer .dd_logo-sie {
 }
 
 .dd_border-button-grey:hover {
-    border: .2em solid #eeeeee;
+    box-shadow: 0px 0px 0px .2em #eeeeee;
 }
 
 .dd_border-button-grey:focus {
-    border: .2em solid #d9dadc;
+    box-shadow: 0px 0px 0px .2em #d9dadc;
 }
 
 /* Bottone chiaro con testo nero */
@@ -399,9 +399,9 @@ footer .dd_logo-sie {
 }
 
 .dd_border-button-light:hover {
-    border: .2em solid #c0c0c0;
+    box-shadow: 0px 0px 0px .2em #c0c0c0;
 }
 
 .dd_border-button-light:focus {
-    border: .2em solid #f5f5f5;
+    box-shadow: 0px 0px 0px .2em #f5f5f5;
 }
