@@ -175,14 +175,6 @@ main .dd_new-releases {
     background-color: #1f1f1f;
 }
 
-main .dd_new-releases .dd_thumbnail-new-releases img{
-    transition: transform .5s;
-}
-
-main .dd_new-releases .dd_thumbnail-new-releases:hover img {
-    transform: scale(1.05);
-}
-
 
 
 /* 5_0 SEZIONE PANORAMICA PLAYSTATION 5 */
@@ -250,6 +242,18 @@ footer .dd_logo-sie {
         transform: translateY(1rem);
     }
     
+}
+
+
+
+/* TRANSIZIONE INGRANDIMENTO CARDS ALL'HOVER */
+
+.dd_transition-scale {
+    transition: transform .5s;
+}
+
+.dd_transition-scale:hover {
+    transform: scale(1.05);
 }
 
 
