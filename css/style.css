@@ -46,7 +46,8 @@ header nav .nav-link {
 }
 
 header nav .nav-link:hover,
-header nav .nav-link:focus {
+header nav .nav-link:focus,
+header nav .show {
     color: var(--play_blue) !important;
 }
 
@@ -72,7 +73,8 @@ header nav .dropdown-menu .list-group > .list-group-item > .dropdown-item {
     border: 1px solid transparent;
 }
 
-header nav .dropdown-menu .list-group > .list-group-item > .dropdown-item:hover {
+header nav .dropdown-menu .list-group > .list-group-item > .dropdown-item:hover,
+header nav .dropdown-menu .list-group > .list-group-item > .dropdown-item:focus {
     background: none;
     border: 1px solid lightgrey;
     box-shadow: 0px 0px 15px 0px lightgrey;
